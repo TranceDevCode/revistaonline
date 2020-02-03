@@ -1,0 +1,27 @@
+.boton{
+    background: $nickel;
+}
+
+.redondo{
+    border-radius: 5rem;
+    margin-left: 25px;
+}
+
+.padines{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.redondoleft{
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+}
+
+.redondoright{
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.altobotones{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

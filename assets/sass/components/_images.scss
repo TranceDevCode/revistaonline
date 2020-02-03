@@ -1,0 +1,50 @@
+.logo{
+    width: 125px;
+}
+
+.colorfondo{
+    background-color: $platinum;
+}
+
+.hero-section{
+    text-align: center;
+    background-image: url('../img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    text-shadow: 0.125em 0.25em 0.125em $nickel;
+    padding: 13.125rem 4.125rem; /* Aqui hay propiedades para padding en varios lados */
+    padding-top: 25.125rem;
+    font-style: italic;
+    //background-position-y: 70px;
+   /*  margin-left: 23%;
+    margin-right: 23%; */
+}
+
+.logocenter{
+    width: 125px;
+    padding: 100px;
+    text-align: center;
+}
+
+
+@media (max-width: 576px) {
+    .textoq576{
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+    }
+    .imagencenter{
+        text-align: center;
+    }
+    .centertext{
+        text-align: center;
+    }
+    
+}
+
+footer a img{
+    width: 125px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
