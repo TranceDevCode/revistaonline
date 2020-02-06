@@ -1,27 +1,13 @@
-.boton{
-    background: $nickel;
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
 }
 
-.redondo{
-    border-radius: 5rem;
-    margin-left: 25px;
-}
-
-.padines{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.redondoleft{
-    border-bottom-left-radius: 5rem;
-    border-top-left-radius: 5rem;
-}
-
-.redondoright{
-    border-top-right-radius: 5rem;
-    border-bottom-right-radius: 5rem;
-}
-
-.altobotones{
-    padding-top: 0px;
-    padding-bottom: 0px;
+.group button {
+    background-color: coral;
+    color: white;
 }
